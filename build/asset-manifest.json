@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/thienlong.github.io/static/css/main.efba73e8.css",
+    "main.js": "/thienlong.github.io/static/js/main.433d2e93.js",
+    "static/media/sanpham.png": "/thienlong.github.io/static/media/sanpham.86981d15558a7a6b507a.png",
+    "static/media/brand3.png": "/thienlong.github.io/static/media/brand3.96f4ba81773a7f8f7d95.png",
+    "static/media/logo.png": "/thienlong.github.io/static/media/logo.b04d0ae214e5feb80ed0.png",
+    "static/media/iconProfile.svg": "/thienlong.github.io/static/media/iconProfile.50ff2ffc90fab92059e12c08e42730eb.svg",
+    "static/media/left-arrow.svg": "/thienlong.github.io/static/media/left-arrow.a0b0ade0dcee1b9da1a690d72fbf5287.svg",
+    "static/media/right-arrow.svg": "/thienlong.github.io/static/media/right-arrow.1d4560bac39002652812179f4331c67e.svg",
+    "static/media/iconSearch.svg": "/thienlong.github.io/static/media/iconSearch.7fd8c0dcbc5c064d7db0c6082be43113.svg",
+    "index.html": "/thienlong.github.io/index.html",
+    "main.efba73e8.css.map": "/thienlong.github.io/static/css/main.efba73e8.css.map",
+    "main.433d2e93.js.map": "/thienlong.github.io/static/js/main.433d2e93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efba73e8.css",
+    "static/js/main.433d2e93.js"
+  ]
+}
