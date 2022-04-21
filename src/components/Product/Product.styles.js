@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const CoverImage = styled.div`
-  background: var(--gray);
+  background: var(--white);
   height: 300px;
   align-items: center;
   justify-content: center;
   display: flex;
+  -webkit-box-shadow: 3px 3px 15px 3px rgba(0, 0, 0, 0.09);
+  box-shadow: 3px 3px 15px 3px rgba(0, 0, 0, 0.09);
+  border-radius: 8px;
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 80%;
   max-width: 720px;
   transition: all 0.3s;
   border-radius: 20px;

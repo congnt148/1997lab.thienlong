@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   max-width: var(--maxWidth);
   margin: 80px auto;
-  padding: 0 20px;
 `;
 
 export const Content = styled.div`
@@ -31,7 +30,7 @@ export const BtnSeeMore = styled.div`
   align-items: center;
   justify-content: center;
   display: flex;
-  p: {
+  p {
     padding: 0;
     margin: 0 0;
   }

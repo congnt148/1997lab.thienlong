@@ -14,7 +14,7 @@ export const Content = styled.div`
   padding: 20px 0;
   margin: 0 auto;
   flex-direction: row;
-  h2: {
+  h2 {
     color: "black";
   }
   p {
@@ -29,4 +29,9 @@ export const InfoCompany = styled.div`
 export const MenuPro = styled.div`
   flex-direction: column;
   margin: 0 20px;
+`;
+
+export const ImgThienLongOne = styled.img`
+  width: 200px;
+  height: 126;
 `;

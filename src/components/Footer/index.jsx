@@ -1,6 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Wrapper, Content, MenuPro, InfoCompany } from "./Footer.styles";
+import {
+  Wrapper,
+  Content,
+  MenuPro,
+  InfoCompany,
+  ImgThienLongOne,
+} from "./Footer.styles";
+import logoThienLongOne from "../../images/logoThienLongOne.png";
 Footer.propTypes = {};
 
 function Footer(props) {
@@ -8,12 +15,13 @@ function Footer(props) {
     <Wrapper>
       <Content>
         <InfoCompany>
+          <ImgThienLongOne src={logoThienLongOne} />
+
           <h3>CÔNG TY CỔ PHẦN TẬP ĐOÀN THIÊN LONG</h3>
           <p>
             Tầng 10, Sofic Tower, Số 10 Đường Mai Chí Thọ, Phường Thủ Thiêm,
             Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam
           </p>
-          <p>(+84) 28 3750 55 55</p>
           <p>(+84) 28 3750 55 77</p>
           <p>info@thienlonggroup.com</p>
         </InfoCompany>

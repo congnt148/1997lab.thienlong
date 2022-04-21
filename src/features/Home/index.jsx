@@ -4,15 +4,15 @@ import Banner from "../../components/Banner";
 import ListProduct from "../../components/ListProduct";
 import Footer from "../../components/Footer";
 import ListBrand from "../../components/ListBrand";
+import ListNewProduct from "../../components/ListNewProduct";
 const Home = () => {
   return (
     <Wrapper>
       <Banner />
+      <ListNewProduct />
+      <ListProduct title="Sản phẩm nổi bật" />
+      <ListProduct title="Sản phẩm bán chạy" />
       <ListBrand />
-      <ListProduct title="Bút viết" />
-      <ListProduct title="Văn phòng phẩm" />
-      <ListProduct title="Dụng cụ học tập" />
-      <Footer />
     </Wrapper>
   );
 };

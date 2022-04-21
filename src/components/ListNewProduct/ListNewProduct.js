@@ -16,27 +16,15 @@ export const Content = styled.div`
 `;
 export const Card = styled.div`
   display: flex;
-  margin: 0 8px;
-  background: var(--gray);
+  margin: 20px;
   width: 100%;
-  height: 120px;
+  height: 150px;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 `;
-
 export const ImgCard = styled.img`
-  max-width: 50%;
-  height: 55px;
-  :hover {
-    max-width: 60%;
-    height: 70px;
-  }
-  @keyframes animateThumb {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
